@@ -8,7 +8,8 @@ export default function ({ config, stage, isNode }) {
     {
       loader: 'css-loader',
       options: {
-        importLoaders: 1,
+        modules: 1,
+        localIdentName: stage === 'prod' ? '[hash:base64:8]' : '[path][name]---[local]',
         minimize: stage === 'prod',
         sourceMap: false,
       },
