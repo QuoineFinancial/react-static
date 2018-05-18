@@ -1,9 +1,9 @@
 {
-  "name": "react-static",
-  "description": "A progressive static site generator for React",
-  "version": "5.9.3",
+  "name": "@quoine/react-static",
+  "description": "Fork of https://github.com/nozzle/react-static 5.9.3",
+  "version": "1.0.0",
   "license": "MIT",
-  "repository": "https://github.com/nozzle/react-static",
+  "repository": "https://github.com/QuoineFinancial/react-static",
   "main": "lib/index.js",
   "types": "src/index.d.ts",
   "engines": {
